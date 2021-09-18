@@ -50,12 +50,16 @@ body {
     padding: 5%;
     background-color: #667799;
 }
-figure {
+.photo {
     width: fit-content;
     height: fit-content;
     margin: 0px;
     display:inline-block;
+    border: 1px solid black;
 
+}
+#gandalf{
+    border: 1px solid gold;
 }
 figure:hover{
     transform:scale(1.25);
