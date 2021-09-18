@@ -12,15 +12,14 @@ h1{
     position:inherit;
     color: #ffd902d0;
     text-align: center;
+    font-family: 'Franklin Gothic Medium';
 }
-.navbutton {
-    background-color:#b8800b;
-    border-radius: 5px;
+a{
+    margin: 4px;
+    color: black;
+    border: 2px solid black;
     padding: 5px;
-    
-}
-.navbutton:hover{
-    background-color: #ebb44f;
+    background-color: rgba(255, 217, 0, 0.712)
 }
 .main{
     font-size: larger;
@@ -31,6 +30,7 @@ body {
     height: 100%;
     width: 100%;
     position:absolute;
+    font-family:'Times New Roman';
 
 }
 #navbar {
