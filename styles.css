@@ -36,12 +36,10 @@ body {
 #navbar {
     border-width: 5px;
     border-color: black;
-    border: 1% black;
     padding: 1%;
     border-style: solid;
     width: auto;
     margin: 0px;
-    offset: 0px;
     background-color: darkslategray;
     position:initial;
 }
