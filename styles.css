@@ -1,0 +1,74 @@
+h1{
+    font-family:'Garamond';
+    font-weight: bolder;
+    text-align: center;
+}
+#home{
+    background-image: url("images/Rivendell.jpg");
+    background-position:center;
+    background-size:cover;
+    height: 95%;
+    width: 100%;
+    position:inherit;
+    color: #ffd902d0;
+    text-align: center;
+}
+.navbutton {
+    background-color:#b8800b;
+    border-radius: 5px;
+    padding: 5px;
+    
+}
+.navbutton:hover{
+    background-color: #ebb44f;
+}
+.main{
+    font-size: larger;
+    margin:10px;
+}
+body {
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+    position:absolute;
+
+}
+#navbar {
+    border-width: 5px;
+    border-color: black;
+    border: 1% black;
+    padding: 1%;
+    border-style: solid;
+    width: auto;
+    margin: 0px;
+    offset: 0px;
+    background-color: darkslategray;
+    position:initial;
+}
+.characters {
+    margin: 20px;
+    border: 1px solid black;
+    border-radius: 10%;
+    padding: 5%;
+    background-color: #667799;
+}
+figure {
+    width: fit-content;
+    height: fit-content;
+    margin: 0px;
+    display:inline-block;
+
+}
+figure:hover{
+    transform:scale(1.25);
+}
+img {
+    height: 250px;
+    width: 200px;
+    border-radius: 5px;
+    margin: 20px;
+}
+figcaption{
+    text-align:center;
+    font-size:larger;
+}
